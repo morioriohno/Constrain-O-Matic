@@ -4,9 +4,9 @@ This is a tool made for Maya Python that allows you to execute multiple constrai
 
 ## Installation
 To install, drop the Constrain-O-Matic python script into your script folder:
-  - Linux     $HOME/maya/scripts
-  - Mac OS X  $HOME/Library/Preferences/Autodesk/maya/scripts
-  - Windows   \Users\<username>\Documents\maya\scripts
+  - Linux:     *$HOME/maya/scripts*
+  - Mac OS:    *$HOME/Library/Preferences/Autodesk/maya/scripts*
+  - Windows:   *\Users\<username>\Documents\maya\scripts*
   
 Then run this python code in Maya:
 ```
