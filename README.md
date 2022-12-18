@@ -15,6 +15,9 @@ COM.ConstrainOMatic()
 ```
 You can create a button from this code by to bring up the Constrain-O-Matic UI quickly. To do so, select the code in the script editor and middle-mouse-button drag it to your rigging shelf.
 
+## Demo
+You can find a demo video with simple examples [here](https://youtu.be/i1Z3zXnMAiM). There is also a transcript file available for download above. 
+
 ## How It Works
 The Constrain-O-Matic uses a set of filter strings to take objects in a selection and separate them into two lists: a parent list and a child list. Using those lists, the tool then checks which types of constraints you've selected, does an extensive error check, and executes one of two functions: ***One For All*** and ***One By One***.
 
@@ -36,7 +39,7 @@ tail_CTL ----> tail01_JNT
 This function doesn't require any sort of matching naming scheme, so long as the filter strings are still retrieving the proper objects.
 
 ### One By One
-***One By One*** allows you to connect objects that "match" in name. Rather than only using a single parent object, the tool makes sure that an equal number of objects populate both lists, and then alphabetises the lists. Once alphabetized, the Constrain-O-Matic grabs one object from each list and constrains them, then moves to the next object in each list, and continues until all matching objects are paired. For example, say you want to rig a robot's mechanical hand through constraints. With all the separate fingers, it would be a lot of work to replicate a parent and scale constraint for each joint of each finger. With the Constrain-O-Matic, it can be done in a few short steps, as detailed below:
+***One By One*** allows you to connect objects that "match" in name. Rather than only using a single parent object, the tool makes sure that an equal number of objects populate both lists, and then alphabetizes the lists. Once alphabetized, the Constrain-O-Matic grabs one object from each list and constrains them, then moves to the next object in each list, and continues until all matching objects are paired. For example, say you want to rig a robot's mechanical hand through constraints. With all the separate fingers, it would be a lot of work to replicate a parent and scale constraint for each joint of each finger. With the Constrain-O-Matic, it can be done in a few short steps, as detailed below:
 
 ```
 If the parent filter string is "_JNT" and the child filter string is "_GEO",
