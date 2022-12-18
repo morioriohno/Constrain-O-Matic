@@ -16,7 +16,7 @@ COM.ConstrainOMatic()
 You can create a button from this code by to bring up the Constrain-O-Matic UI quickly. To do so, select the code in the script editor and middle-mouse-button drag it to your rigging shelf.
 
 ## Demo
-You can find a demo video with simple examples [here](https://youtu.be/i1Z3zXnMAiM). There is also a transcript file available for download above. 
+You can find a demo video with simple examples [here](https://youtu.be/i1Z3zXnMAiM). There is also a transcript file within the download folder, titled "Demo Transcript.md". 
 
 ## How It Works
 The Constrain-O-Matic uses a set of filter strings to take objects in a selection and separate them into two lists: a parent list and a child list. Using those lists, the tool then checks which types of constraints you've selected, does an extensive error check, and executes one of two functions: ***One For All*** and ***One By One***.
